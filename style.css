@@ -45,7 +45,7 @@ nav ul li{
     font-family: 'Varela Round', sans-serif;
     border-radius: 12px;
     padding: 30px;
-    background-image: url('back.webp');
+    background-image: url('bang.gif');
     background-size: cover;
    
 }
@@ -134,4 +134,49 @@ margin-top: 26px;
         position: relative;
         right: -631px;
         bottom: -7px;
+}
+@media screen and (max-width:600px){
+   .container h1{
+    font-size: 1.6em;
+   }
+   .brand{
+    font-size: 0.9em;
+
+   }
+   .brand img{
+    height: 25px;
+    width: 25px;
+   }
+   nav ul li{
+    font-size: 0.9em;
+   }
+   songlistplay{
+    width: 50%;
+   }
+   .timestamp{
+    width: 50%;
+   }
+  
+ 
+   .songItem{
+    font-size: 0.9em;
+   }
+   #masterSongName{
+    position: relative;
+    bottom: 0;
+    left: 84px;
+    top: 38px;
+   }
+    .songInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+
+   } 
+.container{
+    background-image: url('bang.gif');
+    background-size: cover;
+}
+
 }
