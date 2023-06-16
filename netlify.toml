@@ -1,0 +1,5 @@
+
+[[redirects]]
+from = "/*"
+to = "/spotify1.html"
+status = 200
